@@ -16,7 +16,23 @@ The Solidity code for the NFT auction smart contract is detailed, including func
 
 ## Usage
 
-[Insert usage instructions here]
+To use the NFT Auction Smart Contract, follow these steps:
+
+Prerequisites: Before interacting with the smart contract, ensure that you have the following:
+
+An Ethereum wallet (such as MetaMask) installed in your browser.
+Sufficient Ether (ETH) balance in your wallet to cover transaction fees and bid amounts.
+Deploy the Smart Contract: Deploy the NFT Auction Smart Contract to the Ethereum blockchain using Remix IDE or Truffle. Make sure to choose the appropriate network (testnet or mainnet) for deployment.
+
+Create an Auction: As the owner of an NFT, you can initiate an auction for your NFT by calling the createAuction function. Provide the NFT's token ID, the starting price, and the auction duration as parameters.
+
+Place a Bid: Participants can place bids on the auction by calling the placeBid function and sending the desired bid amount as Ether. Each new bid should be higher than the previous one.
+
+End the Auction: After the auction duration has ended, the NFT owner or the smart contract owner can call the endAuction function to finalize the auction. The NFT will be transferred to the highest bidder, and the bid amount will be sent to the NFT owner.
+
+Withdraw Bids: Participants who didn't win the auction can withdraw their bid amounts by calling the withdrawBid function after the auction has ended.
+
+Interact via Remix IDE: For testing and interaction, you can use Remix IDE's interface to access the smart contract's functions and check the status of auctions.
 
 ## License
 
