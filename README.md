@@ -1,6 +1,6 @@
 # NFT Auction Smart Contract - Solidity
 
-![NFT Auction](nft_auction.jpg) 
+![NFT Auction](nft_auction.jpg)
 
 ## Overview
 
